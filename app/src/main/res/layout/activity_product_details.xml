@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A2DED6"
+    tools:context=".ProductDetails">
+
+    <TextView
+        android:id="@+id/textVieww5"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:background="#c9383d"
+        android:layout_height="48dp"
+        android:text="Ürün Detayları" />
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BF7E8E"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A3BF78"
+        />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#D9C966"
+
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="82dp" />
+
+    <Button
+        android:id="@+id/backToList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="geri dön" />
+
+</LinearLayout>
